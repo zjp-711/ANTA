@@ -1,0 +1,118 @@
+.head-box {
+    display: flex;
+    height: 100px;
+    width: 400px;
+    margin: 0 auto;
+    padding-top: 40px;
+    font-size: 14px;
+    position: relative;
+}
+
+.head-box>a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    height: 35px;
+    line-height: 35px;
+    font-size: 14px;
+    color: #999;
+    text-decoration: none;
+    outline: 0 none;
+    cursor: pointer;
+    /* list-style: none; */
+    /* background-color: tomato; */
+}
+
+
+/* .head-box>a:hover {
+    color: #999;
+} */
+
+#heada {
+    background-color: black;
+    color: white;
+}
+
+.head-box>span {
+    width: 0px;
+    height: 0px;
+    border-top: 7px solid black;
+    border-left: 7px solid transparent;
+    border-right: 7px solid transparent;
+    margin-top: 35px;
+    position: absolute;
+    display: none;
+}
+
+#headspan {
+    display: flex;
+}
+
+.ipd+span {
+    left: 25%;
+}
+
+.emli+span {
+    left: 75%;
+}
+
+.wrap {
+    position: relative;
+}
+
+.wrap>p {
+    position: absolute;
+    top: 100px;
+    left: 50px;
+    display: none;
+}
+
+.wrap>.reg-one {
+    display: flex;
+}
+
+.reg-1 {
+    top: 70px;
+    /* background-color: red; */
+    position: absolute;
+    display: flex;
+}
+
+#wrap-reg {
+    display: flex;
+}
+
+.reg-2 {
+    top: 70px;
+    background-color: royalblue;
+    position: absolute;
+    display: flex;
+}
+
+.login-name>form>input {
+    margin-bottom: 20px;
+}
+
+.login-btn {
+    margin-top: 40px;
+}
+
+.inputbg {
+    padding-bottom: 15px;
+    display: flex;
+    flex-wrap: nowrap;
+    border: none;
+    font-size: 13px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.inputbg>span {
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.inputbg>span>a {
+    color: #999999;
+}

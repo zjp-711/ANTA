@@ -1,0 +1,185 @@
+ /* .nav-img>a>img {
+     text-align: center;
+     margin-top: 35px;
+ }
+ 
+ .header-nav .navul>ul>div {
+     width: 210px;
+     height: 26px;
+     padding: 6px;
+ }
+  */
+ 
+ .login-wrapper {
+     background: #f9f9f9;
+     color: #666;
+     font-size: 14px;
+     width: 1349px;
+     height: 600px;
+     min-height: calc(100vh - 320px);
+     position: relative;
+     overflow: hidden;
+     box-sizing: border-box;
+ }
+ 
+ .wrapper {
+     width: 100%;
+     min-height: 100%;
+     height: auto;
+     background: url(https://img.fishfay.com/theme/images/antacn/login/login-01.jpg) no-repeat;
+     background-size: 100% auto;
+     color: #666;
+     font-size: 14px;
+     padding-top: 50px;
+     padding-bottom: 50px;
+ }
+ 
+ .wrap {
+     width: 500px;
+     height: 500px;
+     padding: 0 20px 30px 20px;
+     margin: 0 100px 50px auto;
+     box-sizing: border-box;
+     background-color: #fff;
+     display: flex;
+     justify-content: flex-end;
+     overflow: hidden;
+     box-sizing: border-box;
+ }
+ 
+ .login-name {
+     margin: 70px 51px 0 51px;
+ }
+ 
+ .login-name>form>input {
+     width: 356px;
+     height: 42px;
+     line-height: 22px;
+     padding: 13px 16px 13px 14px;
+     display: block;
+     background: none;
+     border: 0 none;
+     font-size: 100%;
+     font-family: arial, "Hiragino Sans GB", "Microsoft YaHei", sans-serif;
+     outline: none;
+     box-sizing: border-box;
+     border: 1px solid #E0E0E0;
+     margin-bottom: 14px;
+     outline: none;
+ }
+ 
+ .icon_error {
+     color: red;
+     display: none;
+ }
+ 
+ .login-error {
+     display: flex;
+ }
+ 
+ .login-name>form>button {
+     width: 356px;
+     height: 50px;
+     line-height: 50px;
+     display: block;
+     margin-bottom: 44px;
+     text-align: center;
+     font-size: 14px;
+     color: #fff;
+     cursor: pointer;
+     background: #000;
+     border: 0;
+     outline: none;
+ }
+ 
+ .login-other {
+     margin-top: 20px;
+     padding-top: 10px;
+     border: 0;
+     border-top: 1px solid #999;
+     padding: 0 2px;
+     box-sizing: border-box;
+ }
+ 
+ fieldset>legend {
+     font-size: 14px;
+     color: #333;
+     margin: 0 auto;
+     text-align: center;
+ }
+ 
+ .other {
+     width: 358px;
+     height: 34px;
+     text-align: center;
+     margin-top: 40px;
+ }
+ 
+ .other>a {
+     width: 30px;
+     height: 30px;
+     margin: 0 12px;
+     display: inline-block;
+     text-indent: -9999px;
+     background-repeat: no-repeat;
+     background-size: 100% auto;
+     background-position: center;
+     -webkit-border-radius: 50%;
+     -moz-border-radius: 50%;
+     -o-border-radius: 50%;
+     border-radius: 50%;
+     overflow: hidden;
+ }
+ 
+ .other>a:nth-of-type(1) {
+     background-image: url(https://img.fishfay.com/theme/images/icons/wechat-cr-g.svg);
+ }
+ 
+ .other>a:nth-of-type(1):hover {
+     background-image: url(https://img.fishfay.com/theme/images/icons/wechat-cr-b.svg)
+ }
+ 
+ .other>a:nth-of-type(2) {
+     background-image: url(https://img.fishfay.com/theme/images/icons/alipay-cr-g.svg);
+ }
+ 
+ .other>a:nth-of-type(2):hover {
+     background-image: url(https://img.fishfay.com/theme/images/icons/alipay-cr-b.svg);
+ }
+ 
+ .other>a:nth-of-type(3) {
+     background-image: url(https://img.fishfay.com/theme/images/icons/qq-cr-g.svg);
+ }
+ 
+ .other>a:nth-of-type(3):hover {
+     background-image: url(https://img.fishfay.com/theme/images/icons/qq-cr-b.svg);
+ }
+ 
+ .other>a:nth-of-type(4) {
+     background-image: url(https://img.fishfay.com/theme/images/icons/weibo-cr-g.svg);
+ }
+ 
+ .other>a:nth-of-type(4):hover {
+     background-image: url(https://img.fishfay.com/theme/images/icons/weibo-cr-b.svg);
+ }
+ 
+ .login-change {
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     margin-top: 30px;
+ }
+ 
+ .login-change>a {
+     display: flex;
+     font-size: 14px;
+     color: #333;
+     padding: 0 9px;
+ }
+ 
+ .login-btn {
+     background-color: #000;
+     margin-top: 15px;
+     border: 1px solid rgba(186, 186, 186, 0.3);
+     color: #fff;
+ }

@@ -1,0 +1,383 @@
+        a,
+        address,
+        b,
+        big,
+        blockquote,
+        body,
+        center,
+        cite,
+        code,
+        dd,
+        del,
+        div,
+        dl,
+        dt,
+        em,
+        fieldset,
+        font,
+        form,
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6,
+        html,
+        i,
+        iframe,
+        img,
+        ins,
+        label,
+        legend,
+        li,
+        ol,
+        p,
+        pre,
+        small,
+        span,
+        strong,
+        u,
+        ul,
+        var {
+            margin: 0;
+            padding: 0;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        
+        i,
+        em,
+        b,
+        strong {
+            font-weight: normal;
+            font-style: normal;
+        }
+        
+        img {
+            vertical-align: top;
+            margin-left: -280px;
+        }
+        
+        @font-face {
+            font-family: 'iconfont';
+            src: url('../font/iconfont.eot');
+            src: url('../font/iconfont.eot?#iefix') format('embedded-opentype'), url('../font/iconfont.woff2') format('woff2'), url('../font/iconfont.woff') format('woff'), url('../font/iconfont.ttf') format('truetype'), url('../font/iconfont.svg#iconfont') format('svg');
+        }
+        
+        .iconfont {
+            font-family: "iconfont" !important;
+            font-style: normal;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+        
+        body {
+            font: normal 12px "微软雅黑", Arial, sans-serif;
+            font-weight: 400;
+        }
+        /*
+头部属性  
+*/
+        
+        header {
+            position: relative;
+        }
+        
+        .header-top {
+            height: 49px;
+            border-bottom: 1px solid #cccccc;
+            display: flex;
+            line-height: 49px;
+            padding-right: 70px;
+            justify-content: flex-end;
+            color: #999999;
+            font-size: 14px;
+            overflow: hidden;
+        }
+        
+        .header-top>div a {
+            color: #999999;
+            font-size: 20px;
+        }
+        
+        .header-top>div {
+            margin-right: 30px;
+        }
+        
+        .header-top>div:nth-of-type(4) {
+            margin-right: 0px;
+        }
+        
+        .header-top>div:nth-of-type(4)>a {
+            font-size: 14px;
+            font-weight: bold;
+        }
+        
+        .header-top>div:nth-of-type(1)>a {
+            font-size: 14px;
+        }
+        
+        .header-top>div:nth-of-type(1)>a:hover {
+            color: #4e4e4e;
+            text-decoration: underline;
+        }
+        
+        .header-top>div>a:hover {
+            color: #4e4e4e;
+            list-style: none;
+        }
+        
+        .header-nav {
+            height: 99px;
+            border-bottom: 1px solid #e6e6e6;
+            line-height: 99px;
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        .nav-img {
+            height: 100%;
+            width: 125px;
+            margin-left: 41px;
+        }
+        
+        .nav-img>a>img {
+            width: 53px;
+            height: 29px;
+            margin-left: 36px;
+        }
+        
+        .navul>ul {
+            display: flex;
+            margin-right: 70px;
+            position: relative;
+        }
+        
+        .navul>ul>li {
+            padding: 0 25px;
+            margin-left: -1px;
+            height: 98px;
+            line-height: 98px;
+            box-sizing: border-box;
+        }
+        
+        .navul>ul>li>a {
+            display: flex;
+            height: 100px;
+            color: #000;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        
+        .navul>ul>li>a:hover {
+            border-bottom: 4px solid red;
+        }
+        
+        .navul>ul>div {
+            width: 212px;
+            height: 40px;
+            line-height: 26px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            padding: 6px 0;
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: nowrap;
+        }
+        
+        .navul>ul>div>a {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-weight: none;
+            color: #130F0F;
+            width: 46px;
+            height: 26px;
+            border-right: 1px solid #ccc;
+        }
+        
+        .navul>ul>div>input {
+            border: 0;
+            height: 26px;
+            line-height: 26px;
+            width: 160px;
+            vertical-align: middle;
+            color: #000;
+            font-size: 15px;
+            text-indent: 10px;
+            outline: 0;
+        }
+        
+        .tow-box {
+            width: 100%;
+            height: 355px;
+            border-bottom: 1px solid black;
+            position: absolute;
+            display: none;
+            background-color: white;
+        }
+        
+        .tow-boxl {
+            width: 100%;
+            padding-left: 47px;
+            display: flex;
+            padding-top: 30px;
+            position: relative;
+            background-color: white;
+            display: none;
+            z-index: 999;
+        }
+        
+        .tow-boxl img {
+            margin-left: 0;
+        }
+        
+        .tow-boxl>ul {
+            padding-left: 30px;
+            padding-right: 80px;
+            border-left: 1px solid #EEEEEE;
+            height: 310px;
+            font-size: 12px;
+        }
+        
+        .tow-boxl>ul:nth-of-type(1) {
+            padding-right: 60px;
+            border: 0;
+        }
+        
+        .tow-boxl>ul:nth-of-type(1)>h4 {
+            font-weight: none;
+            color: #333333;
+        }
+        
+        .tow-boxl>ul>li>a {
+            color: #333333;
+            line-height: 26px;
+        }
+        
+        .tow-boxl>ul>h4 {
+            color: black;
+            font-size: 14px;
+            font-weight: 600;
+        }
+        /*尾*/
+        
+        .footer {
+            background: #000;
+            color: #fff;
+            overflow: hidden;
+            padding-top: 50px;
+            background-color: #000;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+        
+        .ft-inner {
+            width: 1280px;
+            margin: 0 auto;
+            overflow: hidden;
+            display: flex;
+        }
+        
+        .ft-log {
+            width: 250px;
+            text-align: center;
+            padding-top: 20px;
+            margin-left: 160px;
+        }
+        
+        .ft-log>img {
+            width: 250px;
+            height: 95px;
+        }
+        
+        .links-line {
+            display: flex;
+        }
+        
+        .links-line>li>a {
+            color: white;
+            display: flex;
+            padding: 0 15px;
+            line-height: 16px;
+            border-right: 1px solid white;
+        }
+        
+        .links-line>li:nth-of-type(2) a {
+            border: none;
+        }
+        
+        .ft-company {
+            margin-top: 15px;
+            margin-bottom: 40px;
+            padding-left: 15px;
+            line-height: 20px;
+        }
+        
+        .ft-company>a {
+            color: white;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        .ft-company>span {
+            margin-right: 10px;
+        }
+        
+        .links-line>li:nth-of-type(2) a {
+            border-right: 1px solid white;
+        }
+        
+        .links-line>li:nth-of-type(6) a {
+            border: 0;
+        }
+        
+        .web-covers {
+            background: url(https://img.fishfay.com/theme/images/icons/web-cover.svg) no-repeat;
+            background-size: 100% auto;
+            background-position: center;
+            z-index: 999;
+            position: fixed;
+            right: 50px;
+            bottom: 60px;
+            width: 60px;
+            height: 275px;
+        }
+        
+        .web-covers>a {
+            width: 60px;
+            height: 85px;
+            position: absolute;
+            display: flex;
+        }
+        
+        .web-covers>a:nth-of-type(1) {
+            top: 0;
+        }
+        
+        .web-covers>a:nth-of-type(2) {
+            top: 91px;
+        }
+        
+        .web-covers>a:nth-of-type(3) {
+            top: 183px;
+        }
+        
+        .input-ul {
+            display: none;
+        }
+        
+        .input-li {
+            display: flex;
+            flex-wrap: nowrap;
+            margin-top: 40px;
+            margin-left: -200px;
+            display: flex;
+        }
